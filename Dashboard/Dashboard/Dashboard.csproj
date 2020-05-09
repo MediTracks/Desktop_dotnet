@@ -52,6 +52,12 @@
     <Compile Include="Forms\frm_menu.Designer.cs">
       <DependentUpon>frm_menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frm_splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_splash.Designer.cs">
+      <DependentUpon>frm_splash.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frm_menu.resx">
