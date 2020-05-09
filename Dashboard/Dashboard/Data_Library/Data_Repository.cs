@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Dashboard.Data_Library
 {
-    class Data_Repository
+    public class DataRepository
     {
+        static SqlConnection cnx;
+        Params prms = new Params();
     }
 }
