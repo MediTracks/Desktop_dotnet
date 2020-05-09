@@ -35,7 +35,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.Name = "uc_apropos";
-            this.Size = new System.Drawing.Size(1122, 566);
+            this.Size = new System.Drawing.Size(1261, 566);
             this.ResumeLayout(false);
 
         }
