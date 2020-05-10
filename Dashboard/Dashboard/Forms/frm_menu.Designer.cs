@@ -29,16 +29,28 @@
         private void InitializeComponent()
         {
             this.pnl_main_menu = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnl_main_menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_main_menu
             // 
             this.pnl_main_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.pnl_main_menu.Controls.Add(this.pictureBox1);
             this.pnl_main_menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnl_main_menu.Location = new System.Drawing.Point(0, 0);
             this.pnl_main_menu.Name = "pnl_main_menu";
-            this.pnl_main_menu.Size = new System.Drawing.Size(222, 561);
+            this.pnl_main_menu.Size = new System.Drawing.Size(96, 561);
             this.pnl_main_menu.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(24, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(55, 60);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // frm_menu
             // 
@@ -54,6 +66,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MediTracks";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.pnl_main_menu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -61,5 +75,6 @@
         #endregion
 
         private System.Windows.Forms.Panel pnl_main_menu;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
