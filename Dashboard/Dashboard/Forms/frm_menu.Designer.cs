@@ -41,7 +41,7 @@
             this.pnl_main_menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnl_main_menu.Location = new System.Drawing.Point(0, 0);
             this.pnl_main_menu.Name = "pnl_main_menu";
-            this.pnl_main_menu.Size = new System.Drawing.Size(258, 561);
+            this.pnl_main_menu.Size = new System.Drawing.Size(91, 561);
             this.pnl_main_menu.TabIndex = 0;
             // 
             // pictureBox1
