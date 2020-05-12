@@ -49,7 +49,7 @@
             this.pictureBox1.Image = global::Dashboard.Properties.Resources.Meditracks___short;
             this.pictureBox1.Location = new System.Drawing.Point(6, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(61, 69);
+            this.pictureBox1.Size = new System.Drawing.Size(61, 52);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
