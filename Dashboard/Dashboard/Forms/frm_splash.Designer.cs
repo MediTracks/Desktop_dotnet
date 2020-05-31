@@ -54,6 +54,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_splash";
             this.Opacity = 0.96D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
