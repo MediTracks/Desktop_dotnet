@@ -140,5 +140,8 @@
   <ItemGroup>
     <None Include="Resources\Meditracks - short.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meditracks.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
