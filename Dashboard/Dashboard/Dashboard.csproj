@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Dashboard.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu.Core">
       <HintPath>..\..\..\..\Bunifu-Dataviz-Advanced-1.1.1.5_ShareAppsCrack.com\Bunifu Dataviz Advanced 1.1.1.5\Bunifu.Core.dll</HintPath>
