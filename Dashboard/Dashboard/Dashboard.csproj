@@ -35,6 +35,9 @@
   <PropertyGroup>
     <StartupObject>Dashboard.Program</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Meditracks - short~1.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu.Core">
       <HintPath>..\..\..\..\Bunifu-Dataviz-Advanced-1.1.1.5_ShareAppsCrack.com\Bunifu Dataviz Advanced 1.1.1.5\Bunifu.Core.dll</HintPath>
@@ -145,6 +148,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Meditracks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Meditracks - short~1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
