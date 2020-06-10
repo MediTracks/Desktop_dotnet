@@ -119,6 +119,9 @@
     <Compile Include="User_Controls\uc_apropos.Designer.cs">
       <DependentUpon>uc_apropos.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\frm_fournisseur.resx">
+      <DependentUpon>frm_fournisseur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frm_help.resx">
       <DependentUpon>frm_help.cs</DependentUpon>
     </EmbeddedResource>
