@@ -58,9 +58,10 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(194, 53);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(73, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.Size = new System.Drawing.Size(1211, 561);
             this.panel1.TabIndex = 1;
             // 
             // frm_menu
