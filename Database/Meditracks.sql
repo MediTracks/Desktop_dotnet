@@ -1,13 +1,11 @@
-
-/****** Object:  Table t_client    Script Date: 14/09/2017 03:36:50 ******/
 use master
 go
-if exists(select * from sys.databases where name='db_medical_store')
-drop database db_medical_store
+if exists(select * from sys.databases where name='db_meditracks')
+drop database db_meditracks
 go
-create database db_medical_store
+create database db_meditracks
 go
-use db_medical_store
+use db_meditracks
 
 --------------------------------------------- Codes Province --------------------------------------------------------
 go
@@ -17,7 +15,6 @@ create table t_province
 	description_province nvarchar(50),
 	constraint pk_province primary key(id_province)
 );
-
 ------------------------procedure enregistrer_province
 go
 create procedure enregistrer_province
@@ -315,15 +312,31 @@ create table t_projets
 (
 	id_projet nvarchar(50),
 	designation nvarchar(50),
-	constraint pk_projet
+	constraint pk_projet primary key(id_projet)
 )
+go
+create table t_forme
+(
+	id_forme nvarchar(50),
+	designation nvarchar(50),
+	constraint pk_forme primary key(id_forme)
+)
+go
 create table t_produit
 (
 	code_produit nvarchar(50),
 	designation_produit nvarchar(50),
 	code_categorie nvarchar(50),
+	poids decimal,
+	volume decimal,
+	prix decimal,
+	id_forme nvarchar(50),
+	id_projet nvarchar(50),
+	conditionnement nvarchar(50),
  	constraint pk_equipement primary key(code_produit),
-	constraint fk_categorie_prod foreign key(code_categorie) references t_categorie_prod(code_categorie) on delete cascade on update cascade
+	constraint fk_categorie_prod foreign key(code_categorie) references t_categorie_prod(code_categorie) on delete cascade on update cascade,
+	constraint fk_forme_produit foreign key(id_forme) references t_forme(id_forme) on delete cascade on update cascade,
+	constraint fk_projet foreign key(id_projet) references t_projets(id_projet) on delete cascade on update cascade
 )
 
 ------------ procedure enregistrer_produit
